@@ -1,0 +1,186 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hi there", "How are you", "Hey", "Hello", "Is anyone there?", "Hey", "Hola", "Good day"],
+     "responses": ["Hi, This is SITBot", "Greetings from SITBot", "Namste!", "Hi, how can I help", "Ey watsupp", "Hola", "Hey dude", "You again"]
+    },
+	{"tag": "about",
+      "patterns": ["What do you do", "What do you know", "What is your use", "How can you help", "What is your purpose", "How can you help"],
+      "responses": ["I will provide information about south India tourism places (Andhra Pradesh Telangana Tamilnadu Karnatka Kerala)", "I can help you to find tourist places around south India (Andhra Pradesh Telangana Tamilnadu Karnatka Kerala)", "I can tell you about famous tourism places in south India (Andhra Pradesh Telangana Tamilnadu Karnatka Kerala)"]
+    },
+	{"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself", "You are"],
+      "responses": ["I am SITBot", "My name is SITBot", "You can call me SITBot",  "SITBot is my name"]
+      },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "religious_tourism",
+      "patterns": ["What are famous religious places in south india", "Famous religious places", "Religious places", "Spiritual places", "Devine places in south india", "Temples in south india", "Famous temples in south india", "Tell me about famous religious places in south india", "What are famous spiritual places in south india", "Famous spiritual places to visit", "Spiritual places"],
+      "responses": ["Most famous spiritual places in south india are Tirupathi, Madurai, Rameswaram, Guruvayur, Dharmasthala, Kanchipuram, Sringeri, Thiruvannamalai, Murudeshwar, Thanjevur, Srisailam, Sabarimala, Kottayam, Vijayawada",
+	  "Some of famous religious places in south india are Tirupathi, Madurai, Rameswaram, Guruvayur, Dharmasthala, Kanchipuram, Sringeri, Thiruvannamalai, Murudeshwar, Thanjevur, Srisailam, Sabarimala, Kottayam, Vijayawada", 
+	  "Tirupathi, Madurai, Rameswaram, Guruvayur, Dharmasthala, Kanchipuram, Sringeri, Thiruvannamalai, Murudeshwar, Thanjevur, Srisailam, Sabarimala, Kottayam, Vijayawada are some of the top famous temples in south india"]
+     },
+	 
+	{"tag": "adventure_tourism",
+      "patterns": ["What are famous adventure places in south india", "Famous adventure places", "Wildlife places", "Wildlife", "Wildlife sanctuary in south india", "Famous wildlife sanctuaries", "Sanctuaries", "What are famous wildlife sanctuaries in south india", "Famous sanctuaries to visit", "Famous waterfalls in south india", "Waterfalls", "Famous hill stations in south india", "Hill stations"],
+      "responses": ["Most famous adventure places in south india are Thekkady, Coorg, Dandeli, Periyar Tiger Reserve, Ooty, Gandikota, Munnar, Aaraku, Lambasingi, Wayanad Wildlife Safari",
+	  "Some famous adventure places in south india are Thekkady, Coorg, Dandeli, Periyar Tiger Reserve, Ooty, Munnar, Gandikota, Aaraku, Lambasingi, Wayanad Wildlife Safari",
+	  "Thekkady, Coorg, Dandeli, Periyar Tiger Reserve, Ooty, Gandikota, Munnar, Aaraku, Lambasingi, Wayanad Wildlife Safari are top famous adventure places in south india"]
+     },
+	 
+	{"tag": "beaches",
+      "patterns": ["What are famous beaches in south india", "Famous beaches", "Beaches", "Famous Seashores in south india", "Seashores", "Top beaches", "Best beaches"],
+      "responses": ["Most famous places for beaches in south india are Gokarna, Alappuzha, Poovar Island, Dhanushkodi, Visakhapatnam, Pondicherry, Kovalam",
+	  "Famous places for beaches in south india are Gokarna, Alappuzha, Poovar Island, Dhanushkodi, Visakhapatnam, Pondicherry, Kovalam",
+	  "Gokarna, Alappuzha, Poovar Island, Dhanushkodi, Visakhapatnam, Pondicherry, Kovalam are top beaches in south india"]
+     },	 
+	 
+	 {"tag": "andhra_pradesh",
+      "patterns": ["What are famous places in andhra pradesh", "What are famous places in AP", "Andhra", "Andhra pradesh", "AP", "Places to visit in andhra pradesh", "Best places in andhra pradesh", "Best places in AP", "Top places in andhra pradesh", "Top places in andhra pradesh"],
+      "responses": ["Visakhapatnam, Aaraku, Vijayawada, Tirupathi, Godavari, Lepakshi are top places in andhra pradesh", 
+	  "Famous places in andhra pradesh are Visakhapatnam, Aaraku, Vijayawada, Tirupathi, Godavari, Lepakshi",
+	  "Some of famous places in andhra pradesh are Visakhapatnam, Aaraku, Vijayawada, Tirupathi, Godavari, Lepakshi"
+	 ]
+     },
+	 
+	 {"tag": "andhra_spiritual",
+      "patterns": ["What are famous religious places in andhra pradesh", "What are famous religious places in AP", "Andhra religious places", "AP religious places", "Andhra Spiritual places", "Devine places in andhra pradesh", "Temples in andhra pradesh", "Famous temples in AP", "AP spiritual places", "Spiritual places to visit in andhra pradesh", "Spiritual places to visit in AP"],
+      "responses": ["Famous spiritual places in andhra pradesh are Tirupathi, Annavaram, Bhadrachalam, Vijayawada, Lepakshi, Srisailam, Simhachalam, Srikalasthi, Puttaparthi, Antervedi",
+	  "Some of famous religious places in andhra pradesh are Tirupathi, Bhadrachalam, Annavaram, Lepakshi, Vijayawada, Antervedi, Srisailam, Simhachalam, Srikalasthi, Puttaparthi",
+	  "Tirupathi, Bhadrachalam, Vijayawada, Srisailam, Simhachalam, Annavaram, Lepakshi, Antervedi, Srikalasthi, Puttaparthi are some of the top famous temples in andhra pradesh"]
+     },
+	 
+	 {"tag": "andhra_adventure",
+      "patterns": ["What are famous adventure places in andhra pradesh", "What are famous adventure places in AP", "Andhra adventure places", "AP adventure places", "Best adventure places in andhra", "Best adventure places in AP", "Adventure places in andhra pradesh"],
+      "responses": ["Best adventure places in andhra pradesh are Aaraku, Lambasingi, Vanajangi, Gudisa, Yanam, Maredumalli, Talakona Waterfalls, Gandikota",
+	  "Aaraku, Lambasingi, Vanajangi, Yanam, Maredumalli, Gudisa, Talakona Waterfalls, Gandikota are top adventure places in andhra pradesh",
+	  "Famous adventure places in andhra pradesh are Aaraku, Lambasingi, Gudisa, Vanajangi, Yanam, Maredumalli, Talakona Waterfalls, Gandikota"]
+     },
+	 
+	{"tag": "andhra_beaches",
+      "patterns": ["What are famous beaches in andhra pradesh", "What are famous beaches in AP", "Best beaches in andhra pradesh", "AP best beaches", "Beaches to visit in andhra pradesh", "Beaches to visit in AP"],
+      "responses": ["Rishikonda Beach, Yarada Beach, Gangavaram Beach, Uppada, Seethapalem, Hamasala deevi, Suryalanka Beach, Antervedi Beach are top adventure places in andhra pradesh",
+	  "Best beaches in andhra pradesh are Rishikonda Beach, Yarada Beach, Gangavaram Beach, Uppada, Seethapalem, Antervedi Beach, Hamasala deevi, Suryalanka Beach",
+	  "Famous beaches in andhra pradesh are Rishikonda Beach, Yarada Beach, Gangavaram Beach, Uppada, Seethapalem, Hamasala deevi, Antervedi Beach, Suryalanka Beach"]
+     },
+	 
+	 {"tag": "telangana",
+      "patterns": ["What are famous places in telangana", "What are famous places in hyderabad", "Telangana", "Hyderabad", "Best places around hyderabad", "Places to visit in telangana", "Best places in telangana", "Places to visit around hyderabad", "Top places around hyderabad", "Top places in telangana"],
+      "responses": ["Hyderabad, Secunderabad, Warangal, Nalgonda are top places to visit in telangana", 
+	  "Hyderabad, Secunderabad, Warangal, Nalgonda are top places to visit in hyderabad", 
+	  "Famous places in telangana are Hyderabad, Secunderabad, Warangal, Nalgonda"
+	 ]
+     },
+	  
+	 {"tag": "telanagana_spiritual",
+      "patterns": ["What are famous religious places in telangana", "What are famous religious places around hyderabad", "Telangana spiritual places", "Hyderabad religious places", "Devine places in telangana", "Temples around hyderabad", "Famous temples in telangana", "Spiritual places to visit in telangana", "Best spiritual places to visit around hyderabad"],
+      "responses": ["Famous temples in telangana are Yadadri, Chilkur Balaji Temple, Thousand Pillars Temple, Basara, Bhadrakali Temple, Ramappa Temple, Alampur Jogulamba Temple",
+	  "Some of famous temples in telangana are Yadadri, Chilkur Balaji Temple, Thousand Pillars Temple, Basara, Bhadrakali Temple, Ramappa Temple, Alampur Jogulamba Temple",
+	  "Yadadri, Chilkur Balaji Temple, Thousand Pillars Temple, Basara, Bhadrakali Temple, Ramappa Temple, Alampur Jogulamba Temple are top temples in telangana"]
+     },
+	 
+	 {"tag": "telangana_adventure",
+      "patterns": ["What are famous adventure places in telangana", "What are famous adventure places around hyderabad", "telangana adventure places", "Hyderabad adventure places", "Best adventure places in telangana", "Best adventure places around hyderabad"],
+      "responses": ["Best adventure places in telangana are Ananthagiri hills, Bhongir Fort, Ghanpur Fort, Kanakai waterfalls, Pandavula guhalu, Gayathri waterfalls",
+	  "Ananthagiri hills, Bhongir Fort, Ghanpur Fort, Kanakai waterfalls, Pandavula guhalu, Gayathri waterfalls are top adventure places in telangana",
+	  "Famous adventure places in telangana are Ananthagiri hills, Bhongir Fort, Ghanpur Fort, Kanakai waterfalls, Pandavula guhalu, Gayathri waterfalls"]
+     },
+	 
+	 {"tag": "tamilnadu",
+      "patterns": ["What are famous places in tamilnadu", "What are famous places around chennai", "Tamilnadu", "Chennai", "Best places in tamilnadu", "Places to visit in tamilnadu", "Best places around chennai", "Places to visit around chennai", "Top places in tamilnadu", "Top places around chennai"],
+      "responses": ["Chennai, Kodaikanal, Ooty, Pondicherry, Madurai, Kanyakumari, Mahabalipuram, Kanchipuram, Coimbatore, Tirunelveli are top places to visit in tamilnadu",   
+	  "Best places to visit in tamilnadu are Chennai, Kodaikanal, Ooty, Pondicherry, Madurai, Kanyakumari, Mahabalipuram, Kanchipuram, Coimbatore, Tirunelveli", 
+	  "Famous places in tamilnadu are Chennai, Kodaikanal, Ooty, Pondicherry, Madurai, Kanyakumari, Mahabalipuram, Kanchipuram, Coimbatore, Tirunelveli"
+	 ]
+     },
+	 
+	 {"tag": "tamilnadu_spiritual",
+      "patterns": ["What are famous religious places in tamilnadu", "What are famous religious places around chennai", "Tamilnadu spiritual places", "Chennai religious places", "Devine places around chennai", "Temples in tamilnadu", "Famous temples in tamilnadu", "Spiritual places to visit in tamilnadu", "Best spiritual places to visit around chennai"],
+      "responses": ["Famous temples in tamilnadu are Meenakshi Temple, Rameshwaram Temple, Arunachaleswarar Temple, Mahabalipuram Shore Temple, Brihadeeswarar Temple, Kanchi, Isha foundation",
+	  "Some of famous temples in tamilnadu are Meenakshi Temple, Rameshwaram Temple, Arunachaleswarar Temple, Mahabalipuram Shore Temple, Brihadeeswarar Temple, Kanchi, Isha foundation",
+	  "Meenakshi Temple, Rameshwaram Temple, Arunachaleswarar Temple, Mahabalipuram Shore Temple, Brihadeeswarar Temple, Kanchi, Isha foundation are top temples in tamilnadu"]
+     },
+	 
+	 {"tag": "tamilnadu_adventure",
+      "patterns": ["What are famous adventure places in tamilnadu", "What are famous adventure around chennai", "Tamilnadu adventure places", "Best adventure around in tamilnadu"],
+      "responses": ["Best adventure places in tamilnadu are Hogenakkal waterfalls, Anamalai Hills, Yelagiri, Kalakkad-Mundanthurai Tiger Reserve, Kodaikanal, Kolli hills, Mudumalai Tiger Reserve, YERCAUD",
+	  "Hogenakkal waterfalls, Anamalai Hills, Yelagiri, Kalakkad-Mundanthurai Tiger Reserve, Kodaikanal, Kolli hills, Mudumalai Tiger Reserve, YERCAUD waterfalls are top adventure places in tamilnadu",
+	  "Famous adventure places in tamilnadu are Hogenakkal waterfalls, Anamalai Hills, Yelagiri, Kalakkad-Mundanthurai Tiger Reserve, Kodaikanal, Kolli hills, Mudumalai Tiger Reserve, YERCAUD"]
+     },
+	 
+	 {"tag": "tamilnadu_beaches",
+      "patterns": ["What are famous beaches in tamilnadu", "What are famous beaches around chennai", "Best beaches in tamilnadu", "tamilnadu best beaches", "Beaches to visit in tamilnadu"],
+      "responses": ["Kanyakumari Beach, Mahabalipuram Beach, Gangavaram Beach, Dhanushkodi Beach, Rock Beach, Auroville Beach, Promenade Beach, Veerampattinam Beach are top adventure places in tamilnadu",
+	  "Best beaches in tamilnadu are Kanyakumari Beach, Mahabalipuram Beach, Gangavaram Beach, Dhanushkodi Beach, Rock Beach, Auroville Beach, Promenade Beach, Veerampattinam Beach",
+	  "Famous beaches in tamilnadu are Kanyakumari Beach, Mahabalipuram Beach, Gangavaram Beach, Dhanushkodi Beach, Rock Beach, Auroville Beach, Promenade Beach, Veerampattinam Beach"]
+     },
+	 
+	 {"tag": "karnataka",
+      "patterns": ["What are famous places in karnataka", "What are famous places around bengalore", "karnataka", "Bengalore", "Best places in karnataka", "Places to visit in karnataka", "Best places around bengalore", "Places to visit around bengalore", "Top places in karnataka"],
+      "responses": ["Bengalore, Coorg, Mysore, Hampi, Gokarna, Udipi, Chikmangalur, Bidar, Belur, Dandeli are top places to visit in karnataka",   
+	  "Best places to visit in karnataka are Bengalore, Coorg, Mysore, Hampi, Gokarna, Udipi, Chikmangalur, Bidar, Belur, Dandeli", 
+	  "Famous places in karnataka are Bengalore, Coorg, Mysore, Hampi, Gokarna, Udipi, Chikmangalur, Bidar, Belur, Dandeli"
+	 ]
+     },
+	 
+	 {"tag": "karnataka_spiritual",
+      "patterns": ["What are famous religious places in karnataka", "What are famous religious places around bengalore", "Karnatka spiritual places", "Bengalore religious places", "Devine places in karnataka", "Temples in karnataka", "Famous temples around bengalore", "Spiritual places to visit in karnataka", "Best spiritual places to visit around bengalore"],
+      "responses": ["Famous temples in karnataka are Kukke Subramanya temple, Udupi Srikrishna Temple, Vidyashankara Temple, Murudeshwar Shiva Temple, Kotilingeshwara Temple, Virupaksha Temple, Vidyashankara Temple, Dharmasthala",
+	  "Some of famous temples in karnataka are Kukke Subramanya temple, Udupi Srikrishna Temple, Vidyashankara Temple, Murudeshwar Shiva Temple, Kotilingeshwara Temple, Virupaksha Temple, Vidyashankara Temple, Dharmasthala",
+	  "Kukke Subramanya temple, Udupi Srikrishna Temple, Vidyashankara Temple, Murudeshwar Shiva Temple, Kotilingeshwara Temple, Virupaksha Temple, Vidyashankara Temple, Dharmasthala are top temples in karnataka"]
+     },
+	 
+	 {"tag": "karnataka_adventure",
+      "patterns": ["What are famous adventure places in karnataka", "What are famous adventure places around bengalore", "karnataka adventure places", "Bengalore adventure places", "Best adventure places in karnataka", "Best adventure places around bengalore"],
+      "responses": ["Best adventure places in karnataka are Jog falls, Dandeli, Bandipur national park, Nagarhole national park, Nandi hills, Shimoga, Shivanasamudra falls, BR hills, Bhadra wildlife sanctuary, Kudermukh trek, Mullayangiri, Yana caves, Chingara falls, Kopatty hills, Kumaraparvatha trek",
+	  "Jog falls, Dandeli, Bandipur national park, Nagarhole national park, Nandi hills, Shimoga, Shivanasamudra falls, Kumaraparvatha trek, BR hills, Bhadra wildlife sanctuary, Kudermukh trek, Mullayangiri, Yana caves, Chingara falls, Kopatty hills are top adventure places in karnataka",
+	  "Famous adventure places in karnataka are Jog falls, Dandeli, Bandipur national park, Nagarhole national park, Nandi hills, Shimoga, Shivanasamudra falls, BR hills, Bhadra wildlife sanctuary, Kudermukh trek, Mullayangiri, Yana caves, Chingara falls, Kopatty hills, Kumaraparvatha trek"]
+     },
+	 
+	 {"tag": "karnataka_beaches",
+      "patterns": ["What are famous beaches in karnataka", "What are famous beaches around bengalore", "Best beaches in karnataka", "karnataka best beaches", "Beaches to visit in karnataka"],
+      "responses": ["Om Beach, St. Mary's Island, Kudle Beach, Paradise Beach, Tannirbhavi Beach, Half Moon Beach, Malpe Beach, Padubidri Beach, Devbagh Beach are top beaches in karnataka",
+	  "Best beaches in karnataka are Om Beach, St. Mary's Island, Kudle Beach, Paradise Beach, Tannirbhavi Beach, Half Moon Beach, Malpe Beach, Padubidri Beach, Devbagh Beach",
+	  "Famous beaches in karnataka are Om Beach, St. Mary's Island, Kudle Beach, Paradise Beach, Tannirbhavi Beach, Half Moon Beach, Malpe Beach, Padubidri Beach, Devbagh Beach"]
+     },
+	 
+	 {"tag": "kerala",
+      "patterns": ["What are famous places in kerala", "kerala", "Best places in kerala", "Places to visit in kerala", "Top places in kerala"],
+      "responses": ["Munnar, Thekkady, Alleppey, Trivandrum, Athirapally, Kochi, Thrissur, Wayanad are top places to visit in kerala",   
+	  "Best places to visit in kerala are Munnar, Thekkady, Alleppey, Trivandrum, Athirapally, Kochi, Thrissur, Wayanad", 
+	  "Famous places in kerala are Munnar, Thekkady, Alleppey, Trivandrum, Athirapally, Kochi, Thrissur, Wayanad"
+	 ]
+     },
+	 
+	 {"tag": "kerala_spiritual",
+      "patterns": ["What are famous religious places in kerala", "kerala spiritual places", "kerala religious places", "Devine places in kerala", "Temples in kerala"],
+      "responses": ["Famous temples in kerala are Shri Padmanabhaswamy Temple, Sabrimala Sastha Temple, Guruvayoor Shrikrishna Temple, Kaviyoor Mahadeva Temple, Ambalapuzha Shree Krishna Temple, Thirunelli Temple",
+	  "Some of famous temples in kerala are Shri Padmanabhaswamy Temple, Sabrimala Sastha Temple, Guruvayoor Shrikrishna Temple, Kaviyoor Mahadeva Temple, Ambalapuzha Shree Krishna Temple, Thirunelli Temple",
+	  "Shri Padmanabhaswamy Temple, Sabrimala Sastha Temple, Guruvayoor Shrikrishna Temple, Kaviyoor Mahadeva Temple, Ambalapuzha Shree Krishna Temple, Thirunelli Temple are top temples in kerala"]
+     },
+	 
+	 {"tag": "kerala_adventure",
+      "patterns": ["What are famous adventure places in kerala", "kerala adventure places", "Best adventure places in kerala"],
+      "responses": ["Best adventure places in kerala are Athirapally falls, Edakkal caves, soochippara falls, Parambikulam Tiger reserve, Gavi forest, Aralam wildlife sanctuary, Neelimala view point, Anakulam, Chembra peak",
+	  "Athirapally falls, Edakkal caves, soochippara falls, Parambikulam Tiger reserve, Gavi forest, Aralam wildlife sanctuary, Neelimala view point, Anakulam, Chembra peak are top adventure places in kerala",
+	  "Famous adventure places in kerala are Athirapally falls, Edakkal caves, soochippara falls, Parambikulam Tiger reserve, Gavi forest, Aralam wildlife sanctuary, Neelimala view point, Anakulam, Chembra peak"]
+     },
+	 
+	 {"tag": "kerala_beaches",
+      "patterns": ["What are famous beaches in kerala", "Best beaches in kerala", "Beaches to visit in kerala"],
+      "responses": ["Marari Beach, Kovalam Beach, Varkala Beach, Bekal Beach, Alappuzha Beach, Payyambalam Beach, Beypore Beach, Cherai Beach, Kozhikode Beach are top adventure places in kerala",
+	  "Best beaches in kerala are Marari Beach, Kovalam Beach, Varkala Beach, Bekal Beach, Alappuzha Beach, Payyambalam Beach, Beypore Beach, Cherai Beach, Kozhikode Beach",
+	  "Famous beaches in kerala are Marari Beach, Kovalam Beach, Varkala Beach, Bekal Beach, Alappuzha Beach, Payyambalam Beach, Beypore Beach, Cherai Beach, Kozhikode Beach"]
+     }
+  ]
+}
